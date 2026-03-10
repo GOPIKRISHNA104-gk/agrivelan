@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ML Models (too large for git)
+*.pt
+*.pth
+*.onnx
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.db
+
+# Env files (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# Backend (deploy separately)
+backend/
+firebase_backend/
+
+.vercel
+.env*.local
